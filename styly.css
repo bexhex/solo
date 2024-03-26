@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(151, 124, 87);
+  font-size: large;
+  background-image: linear-gradient(rgb(201, 174, 95), rgb(162, 62, 62));
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  color: rgb(71, 11, 3);
+  padding: 1rem;
+  margin: 1rem;
+  border: 3px dotted;
+  border-color: rgb(177, 25, 20);
+  font-style: italic;
+  background-color: rgba(77, 49, 17, 0.455);
+}
+
+h2 {
+  color: rgba(47, 22, 124, 0.682);
+  padding: 1rem;
+  margin: 1rem;
+  border: 3px dashed;
+  border-color: rgb(190, 32, 85);
+
+  background-color: rgba(39, 68, 69, 0.291);
+}
+
+h3 {
+  color: rgb(173, 188, 7);
+  padding: 1rem;
+  margin: 1rem;
+  border: 3px double;
+  border-color: coral;
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 139, 0.26);
+}
+
+p {
+  color: rgb(72, 90, 46);
+  padding: 1rem;
+  margin: 1rem;
+  font-size: large;
+}
+
+span {
+  color: rgb(230, 139, 2);
+}
+
+img {
+  border-style: double;
+  border-radius: 5rem;
+  border-width: 5px;
+  border-color: crimson;
+}
+
+ul {
+  font-size: x-large;
+  font-style: oblique;
+  color: rgb(255, 221, 54);
+}
+
+a {
+  border-style: outset;
+  border-width: 0.4rem;
+  border-color: rgba(175, 204, 9, 0.568);
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+b {
+  color: rgb(131, 28, 5);
+}
+
+h1:hover {
+  background-color: rgba(162, 2, 2, 0.685);
+  border-radius: 5rem;
+  transition: 0.5s;
+}
+
+h2:hover {
+  background-color: rgba(173, 63, 43, 0.784);
+  border-radius: 5rem;
+  transition: 0.5s;
+}
+
+h3:hover {
+  background-color: rgb(162, 98, 2);
+  border-radius: 5rem;
+  transition: 0.5s;
+}
+
+img:hover {
+  border-color: rgb(215, 190, 0);
+}
+
+a:hover {
+  background-color: rgba(91, 85, 85, 0.243);
+}
+
+div {
+  background-color: rgba(43, 56, 204, 0.63);
+  border: 0.4rem;
+  border-radius: 1rem;
+  border-style: dashed;
+  border-color: rgb(9, 52, 105);
+  font-size: x-large;
+  
+}
