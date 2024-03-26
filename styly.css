@@ -59,7 +59,7 @@ ul {
   color: rgb(255, 221, 54);
 }
 
-a {
+a:not(:has(> img)) {
   border-style: outset;
   border-width: 0.4rem;
   border-color: rgba(175, 204, 9, 0.568);
